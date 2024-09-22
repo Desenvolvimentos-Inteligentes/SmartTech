@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 100%;
 }
 
@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    color:white;
+    color: #91bef6;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 }
 
 .degrade{
-    background: linear-gradient(to right, #39ff14,  #004a02 );
+    background: linear-gradient(to right, #147eff,  #e900e9 );
 }
 
 header {
@@ -40,21 +40,21 @@ header {
 }
 
 header img {
-    max-width: 200px;
+    max-width: 150px;
     margin-bottom: 10px;
 }
 
 .dev-int {
-    color: rgb(0, 0, 0);
-    background: #39ff14;
-    border-radius: 5px;
+    color: #000000;
+    background: #91bef6;
+    border-radius: 4px;
     padding: 2px;
 }
 
 header h1 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #39ff14;
+    color: #ffffff;
     font-weight: 300;
 }
 
@@ -77,8 +77,9 @@ a.link button {
     font-size: 1.2em;
     cursor: pointer;
     transition: .2s;
-    color: rgb(22, 22, 22);
-    font-weight: bold;
+    
+    color: rgb(255, 255, 255);
+    font-weight: 550;
 }
 
 a.link i {
@@ -104,5 +105,5 @@ footer a.btn-footer {
     border-radius: 50%;
     margin: 0 10px;
     transition: .2s;
-    color: #39ff14;
+    color: #418ce6;
 }
